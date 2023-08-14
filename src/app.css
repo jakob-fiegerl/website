@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Inter;
+    src: url("Inter-Regular.woff2");
+}
+
+body {
+    --primary-element-color: rgb(12, 12, 12);
+    --secondary-element-color: rgb(122, 122, 122);
+    --primary-bkg-color: #F4F4F4;
+    --secondary-bkg-color: #fdfdfd;
+    --tertiary-bkg-color: #e3e3e3;
+    --accent-color : rgb(60, 147, 228);
+}
+
+@media (prefers-color-scheme: dark) {
+    /* colors for dark mode*/
+    body {
+        --primary-element-color: #eee;
+        --secondary-element-color: rgb(141, 141, 141);
+        --primary-bkg-color:  #000;
+        --secondary-bkg-color: #111111;
+        --tertiary-bkg-color: #1c1c1c;
+        --accent-color : rgb(47, 124, 196);
+    }
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", Arial, sans-serif;
+    background: var(--primary-bkg-color);
+}
+
+.primary-element {
+    color: var(--primary-element-color) !important;
+}
+
+.secondary-element {
+    color: var(--secondary-element-color) !important;
+}
+
+.highlightable-text {
+    color: var(--secondary-element-color);
+}
+
+.highlightable-text:hover {
+    color: var(--secondary-primary-color);
+    -webkit-transition: color 200ms linear;
+    -ms-transition: color 200ms linear;
+    transition: color 200ms linear;
+}
+
+.highlightable-bg {
+    background-color: var(--secondary-element-color);
+}
+
+.highlightable-text:hover .highlightable-bg {
+    background-color: var(--primary-element-color);
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.h1-text {
+    font-size: 2.5rem;
+    line-height: 160%;
+    color: var(--primary-element-color);
+}
+
+.large-text {
+    font-size: 1.45rem;
+    line-height: 140%;
+    color: var(--primary-element-color);
+}
+
+.regular-text {
+    font-size: 1.05rem;
+    line-height: 170%;
+    color: var(--primary-element-color);
+}
+
+.medium-text {
+    font-size: 1.0rem;
+    line-height: 160%;
+    color: var(--primary-element-color);
+}
+
+.small-text {
+    font-size: 0.9rem;
+    line-height: 160%;
+    color: var(--primary-element-color);
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.button {
+    padding: 0.4rem 0.9rem 0.4rem 0.9rem;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: var(--secondary-element-color);
+    display: inline-block;
+    font-size: 0.9rem;
+    line-height: 160%;
+    color: var(--primary-element-color);
+    transition: all 0.4s linear;
+}
+
+.button:hover {
+    background-color: var(--tertiary-bkg-color);
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.button:active {
+    transform: scale(.98);
+}
+
+@media only screen and (min-width: 768px) {
+    .sticky-header {
+        position: -webkit-sticky;
+        position: sticky;
+        height: 50px;
+        align-self: flex-start;
+        top: 70px;
+        overflow-y: auto;
+    }
+}
+
+@layer {
+    .codeflow {
+        overflow: auto;
+    }
+}
