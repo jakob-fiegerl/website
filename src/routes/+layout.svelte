@@ -2,6 +2,10 @@
 	import "../app.css";
 </script>
 
-<div class="max-w-screen-md mx-auto">
+<svelte:head>
+	<title>Jakob Fiegerl</title>
+</svelte:head>
+
+<div class="max-w-screen-lg mx-auto p-4">
 	<slot />
 </div>

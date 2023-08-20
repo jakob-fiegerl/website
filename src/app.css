@@ -125,7 +125,7 @@ body {
     .sticky-header {
         position: -webkit-sticky;
         position: sticky;
-        height: 50px;
+        height: 55px;
         align-self: flex-start;
         top: 70px;
         overflow-y: auto;
