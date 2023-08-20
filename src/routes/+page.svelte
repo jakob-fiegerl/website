@@ -23,7 +23,7 @@
     </div>
 </div>
 
-<div class="max-w-screen-lg mx-auto p-4 flex flex-col gap-20">
+<div class="max-w-screen-lg mx-auto p-4 pb-24 flex flex-col gap-20">
     <DashboardSection
         title="Work"
         subtitle="Engineering, Product, Architecture"
