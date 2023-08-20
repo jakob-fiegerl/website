@@ -4,21 +4,26 @@
     import JobView from "./JobView.svelte";
 </script>
 
-<div class="md:py-24 flex flex-col gap-20">
-    <DashboardSection title="">
-        <div class="flex flex-col gap-2">
-            <div class="flex flex-row gap-4 items-center">
-                <img
-                    src="profile.png"
-                    class="w-10 h-10 rounded-full"
-                    alt="avatar"
-                    width={50}
-                    height={50}
-                />
-                <div class="large-text">Jakob Fiegerl</div>
+<div class="border-b border-neutral-800 p-4 py-8 md:pt-24 mb-12">
+    <div class="max-w-screen-lg mx-auto">
+        <DashboardSection title="">
+            <div class="flex flex-col gap-2">
+                <div class="flex flex-row gap-4 items-center">
+                    <img
+                        src="profile.png"
+                        class="w-10 h-10 rounded-full"
+                        alt="avatar"
+                        width={50}
+                        height={50}
+                    />
+                    <div class="large-text">Jakob Fiegerl</div>
+                </div>
             </div>
-        </div>
-    </DashboardSection>
+        </DashboardSection>
+    </div>
+</div>
+
+<div class="max-w-screen-lg mx-auto p-4 flex flex-col gap-20">
     <DashboardSection
         title="Work"
         subtitle="Engineering, Product, Architecture"
