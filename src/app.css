@@ -8,24 +8,12 @@
 }
 
 body {
-    --primary-element-color: rgb(12, 12, 12);
-    --secondary-element-color: rgb(122, 122, 122);
-    --primary-bkg-color: #F4F4F4;
-    --secondary-bkg-color: #fdfdfd;
-    --tertiary-bkg-color: #e3e3e3;
-    --accent-color : rgb(60, 147, 228);
-}
-
-@media (prefers-color-scheme: dark) {
-    /* colors for dark mode*/
-    body {
-        --primary-element-color: #eee;
-        --secondary-element-color: rgb(141, 141, 141);
-        --primary-bkg-color:  #000;
-        --secondary-bkg-color: #111111;
-        --tertiary-bkg-color: #1c1c1c;
-        --accent-color : rgb(47, 124, 196);
-    }
+    --primary-element-color: #eee;
+    --secondary-element-color: rgb(141, 141, 141);
+    --primary-bkg-color:  #000;
+    --secondary-bkg-color: #111111;
+    --tertiary-bkg-color: #1c1c1c;
+    --accent-color : rgb(47, 124, 196);
 }
 
 body {
