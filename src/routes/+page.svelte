@@ -2,6 +2,7 @@
     import BlogList from "./BlogList.svelte";
     import DashboardSection from "./DashboardSection.svelte";
     import JobView from "./JobView.svelte";
+    import ProjectView from "./ProjectView.svelte";
 </script>
 
 <div class="border-b border-neutral-800 p-4 py-8 md:pt-24 mb-12">
@@ -49,6 +50,31 @@
                 website="https://twinformatics.at"
                 position="Software Engineer"
                 years="2017 - 2021"
+            />
+        </div>
+    </DashboardSection>
+    <DashboardSection title="Projects" subtitle="Websites, Natives apps & more">
+        <div class="flex flex-row gap-8">
+            <ProjectView
+                company="Scribo"
+                companyLogo="scribo-logo.svg"
+                website="https://getscribo.vercel.app/"
+                description="AI Audio transcription SaaS"
+                year="2023"
+            />
+            <ProjectView
+                company="MIK-OG"
+                companyLogo="mik-logo.png"
+                website="https://www.mik-og.at/"
+                description="Website redesign"
+                year="2022"
+            />
+            <ProjectView
+                company="HabitPanda"
+                companyLogo="habit-panda-logo.png"
+                website="https://apps.apple.com/us/app/habit-panda-daily-routines/id6444684921"
+                description="iOS Habit tracker"
+                year="2022"
             />
         </div>
     </DashboardSection>
