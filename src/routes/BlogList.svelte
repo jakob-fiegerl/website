@@ -54,7 +54,7 @@
                         <div class="flex flex-row">
                             <h2 class="regular-text grow">{item.title}</h2>
                             <div class="text-sm text-neutral-400">
-                                {format(new Date(item.pubDate), "dd/mm/yyyy")}
+                                {format(new Date(item.pubDate), "dd/MM/yyyy")}
                             </div>
                         </div>
                         <div class="flex flex-row gap-2 text-neutral-400">
