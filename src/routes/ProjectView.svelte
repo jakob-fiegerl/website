@@ -16,7 +16,7 @@
             width="80"
             height="80"
             alt={company}
-            class="rounded-lg h-[80px]"
+            class="rounded-2xl h-[80px]"
         />
         <div class="regular-text">
             {company}
