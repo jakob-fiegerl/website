@@ -95,6 +95,10 @@
                 class="highlightable-text"
                 href="https://github.com/jakob-fiegerl">&rarr; Github</a
             >
+            <a
+                class="highlightable-text"
+                href="https://dribbble.com/jakob-fiegerl">&rarr; Dribbble</a
+            >
         </div>
     </DashboardSection>
 </div>
