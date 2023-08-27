@@ -56,7 +56,7 @@
     <DashboardSection title="Projects" subtitle="Websites, Natives apps & more">
         <div class="flex flex-row gap-8">
             <ProjectView
-                company="Scribefy.pro"
+                company="Scribefy"
                 companyLogo="scribo-logo.svg"
                 website="https://www.scribefy.pro/"
                 description="AI Audio transcription SaaS"
