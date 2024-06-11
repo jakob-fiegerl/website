@@ -35,7 +35,7 @@
                 companyLogo="bitpanda.png"
                 website="https://bitpanda.com"
                 position="Senior Software Engineer"
-                years="2022 - 2023"
+                years="2022 - 2024"
             />
             <JobView
                 company="Objectbay"
