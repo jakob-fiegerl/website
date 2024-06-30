@@ -56,6 +56,13 @@
     <DashboardSection title="Projects" subtitle="Websites, Natives apps & more">
         <div class="flex flex-row gap-8">
             <ProjectView
+                company="Docuwrap"
+                companyLogo="docuwrap.png"
+                website="https://docuwrap.com/"
+                description="Summarize and chat with your documents"
+                year="2024"
+            />
+            <ProjectView
                 company="Scribefy"
                 companyLogo="scribo-logo.svg"
                 website="https://www.scribefy.pro/"
