@@ -34,7 +34,7 @@
                 company="Bitpanda"
                 companyLogo="bitpanda.png"
                 website="https://bitpanda.com"
-                position="Senior Software Engineer"
+                position="Lead Engineer"
                 years="2022 - 2024"
             />
             <JobView
