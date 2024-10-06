@@ -1,1 +1,1 @@
-Website of Jakob Fiegerl. Built in SvelteKit.
+website of Jakob Fiegerl. Built in SvelteKit.
